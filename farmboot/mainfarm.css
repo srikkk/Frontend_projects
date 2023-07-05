@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding: .5rem 4rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    background-color: black;
+    
+}
+
+
+#navbarSupportedContent ul li{
+    padding-right: 25px;
+}
+#navbarSupportedContent a {
+    color:white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(11, 118, 15);
+}
+#navbarSupportedContent button{
+    background:rgb(11, 118, 15) ;
+    border-radius: 20px;
+    color:white;
+    width: 80px;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Home{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url('pexels-nicolas-veithen-1719669.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 80px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#Home p{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+    cursor:pointer;
+}
+
+
+#About h1{
+    font-weight: 800;
+    font-size: 50px;
+   
+}
+
+#products h1{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+   
+
+}
+#products img{
+    width:300px;
+    height: 250px;
+    cursor: pointer;
+}
+#products h5{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    
+    cursor: pointer;
+}
+.card{
+    width: 320px;
+    height:300px;   
+    border: none !important;
+    
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin:20px  60px 50px 60px;
+
+}
+.btn{
+    background:rgb(11, 118, 15) ;
+    color:white;
+    font-size: 15px;
+}
+#products h5{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    
+    cursor: pointer;
+}
+.box{
+    width:80% !important;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin:10px 0px;
+}
+#contact textarea{
+    margin:10px 0px;
+}
+#contact h1{
+    font-weight: 550;
+    
+}
+footer{
+    height:30px;
+    width:100%;
+    text-align: center;
+    background-color:rgb(11, 118, 15) ;
+    color:white;
+    padding:3px;
+}

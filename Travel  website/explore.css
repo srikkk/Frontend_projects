@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*
+{
+  margin-left: 0.20cm;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Rancho', cursive;
+  color:#F0FFF0;
+  background-color:#231123;
+ }
+ .head h1{
+     margin-top: 1cm;
+     margin-left: 12cm;
+     color:#F4A460 !important;
+}
+.fig1{
+    max-width: 60%;
+    max-height: 60%;
+}
+.fig2{
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.fig3{
+    max-height: 60%;
+    max-width: 60%;
+}
+.c1{
+    font-size: x-large;
+    color:#F4A460 !important
+}
+.c2{
+    font-size:  x-large;
+    color:#F4A460 !important
+}
+.c3{
+
+    font-size: x-large;
+    color:#F4A460 !important
+}
+.p1{
+    font-size: x-large;
+}
+.p2{
+    font-size:x-large;
+}
+.p3{
+    font-size: x-large;
+}

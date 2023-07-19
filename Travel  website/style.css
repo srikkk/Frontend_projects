@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head
+{
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: -60px;
+}
+
+.nav ul{
+  display: inline-flex;
+  margin-right: -80px;
+  color:black;
+ 
+}
+.nav ul li{
+  list-style: none;
+  margin-right: 40px;
+  position:static ;
+  cursor: pointer;
+  
+}
+
+
+.travel
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:turquoise;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+
+.travel video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:grey;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 3em;
+  font-weight: 800;
+  color:black;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-left: -70px;
+}
+.text h3
+{
+  font-size: 2em;
+  font-weight: 700;
+  color:black;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-left: -70px;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+  margin-left: -70px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  margin-left: -70px;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: relative;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -50px;
+  margin-bottom: -400px;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-20px);
+}
+
